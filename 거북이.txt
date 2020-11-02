@@ -1,0 +1,41 @@
+import turtle
+
+tur  = turtle.Turtle()
+
+tur.shape('') arrow turtle circle square triangle classic
+
+tur.shapesize(w,h,b) 세로 가로 윤곽선
+
+tur.fillcolor('색 이름')
+
+tur.forward()
+tur.backward()
+
+tur.left() / right()
+
+tur.circle(반지름 길이)
+
+tur.hideturtle()
+tur.home()
+tur.clear()
+
+tur.setposition(x좌표,y좌표) // tur를 x,y의 좌표로 이동
+tur.position() // 현재위치를 나타냄
+
+tur.penup()
+tur.pendown()
+tur.isdown()
+
+//
+import random
+import turtle
+
+tur1 = turtle.Turtle()
+
+tur1.shape('turtle')
+
+for count in range(10):
+    tur1.forward(random.randint(1,100))
+    tur1.setheading(random.randint(0,360))
+
+//
